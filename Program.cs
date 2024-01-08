@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TestLibrary;
+namespace BuildMenu
+{
+    class Execute
+    {
+        public static void Main()
+        {
+            Console.WriteLine(Class1.TestFunction());
+        }
+    }
+}
